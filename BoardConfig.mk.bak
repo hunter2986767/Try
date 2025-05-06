@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/X6820
+DEVICE_PATH := device/infinixi/X6820
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

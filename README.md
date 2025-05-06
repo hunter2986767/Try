@@ -1,35 +1,18 @@
-# Android device tree for Infinix Zero 5G (X6815D)
+# DEVICE TREE FOR INFINIX ZERO ULTRA (X6820)
+## Device image
+![INFINIX ZERO ULTRA](https://fdn2.gsmarena.com/vv/pics/infinix/infinix-zero-ultra-1.jpg)
 
-Blocking checks
-- [x] Correct screen/recovery size
-- [x] Working Touch
-- [x] Backup to internal/microSD
-- [x] Restore from internal/microSD
-- [x] reboot to system
-- [x] ADB
-
-Medium checks
-- [x] update.zip sideload
-- [x] UI colors (red/blue inversions)
-- [x] Screen goes off and on
-- [x] F2FS/EXT4 Support
-- [x] all important partitions listed in mount/backup lists
-- [x] backup/restore to/from external (USB-OTG) storage
-- [x] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
-- [x] decrypt /data
-- [x] Correct date
-
-Minor checks
-- [x] MTP export
-- [x] reboot to bootloader
-- [x] reboot to recovery
-- [x] reboot to fastbootd (fixed)
-- [x] poweroff
-- [x] battery level
-- [x] temperature
-- [x] input devices via USB (USB-OTG) - keyboard, mouse and disks
-- [x] USB mass storage export
-- [x] set brightness
-- [x] vibrate
-- [x] screenshot
-
+## Device specification
+Basic   | Spec Sheet
+-------:|:------------------------
+CPU     | DIMENSITY 920 (6NM) 
+GPU     | Mali-G68 MC4
+Memory  | 8GB
+Android Version | 13.0
+Storage | 128GB/256GB
+Battery | Li-polymer 4500 mAh
+Display | 6.8, 2400x1080, 60 Hz
+Main camera | 200+2+1.22 MP
+Front-camera | 32 MP, Built-in flash
+Bluetooth | 5.0 
+Wi-Fi | 802.11 a/b/g/n  2.4 GHz, 5 GHz
