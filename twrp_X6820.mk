@@ -25,7 +25,7 @@ $(call inherit-product, device/infinix/X6820/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := infinix
+PRODUCT_DEVICE := X6820
 PRODUCT_NAME := twrp_X6820
 PRODUCT_BRAND := infinix Zero Ultra
 PRODUCT_MODEL := X6820
