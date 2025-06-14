@@ -20,19 +20,19 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/hunter2986767/TRY-NIG.git'
+        default: 'https://github.com/hunter2986767/try.git'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'main'
+        default: 'fox_12.1'
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/tecno/LH8n'
+        default: 'device/infinix/X6820'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
-        default: 'LH8n'
+        default: 'X6820'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
